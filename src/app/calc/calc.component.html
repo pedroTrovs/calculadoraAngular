@@ -1,0 +1,11 @@
+<div>
+  <form>
+      <input type="number" name="n1" [(ngModel)]="n1" >
+      <input type="number" name="n2" [(ngModel)]="n2" >
+      <button (click)="sum()">Somar</button>
+      <button (click)="subt()">Subtrair</button>
+      <button (click)="mult()">Multiplicar</button>
+      <button (click)="div()">Dividir</button>
+      <input type="number" [value]="resultado">
+  </form>
+</div>
